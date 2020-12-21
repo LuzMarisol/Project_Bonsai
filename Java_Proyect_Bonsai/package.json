@@ -1,0 +1,16 @@
+{
+  "name": "bonsai-guevara",
+  "version": "0.0.1",
+  "description": "Sistema Administrativo Bonsai Guevara",
+  "main": "src/main/java/bonsai/com/Application.java",
+  "author": "plantillas5",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon Application.java"
+  }
+}
