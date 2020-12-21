@@ -1,0 +1,63 @@
+<html lang="es">
+<title>Sistema Bonsái Guevara</title>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="/Sistema_Bonsai/css/estilos.css">
+    </div>
+
+</head>
+
+<body>
+    <aside>
+        <main>
+            <div class="for">
+                <h2>Inicio de sesión</h2>
+                <p class="titulos">Email</p>
+                <input id="email2" type="email" placeholder="Ingrese email" required>
+                <p class="tit">Contraseña</p>
+                <input id="contrasena2" type="password" placeholder="Ingresa contraseña" required>
+                <div class="boton">
+                    <button type="button" value="Acceder" onclick="ingreso()"> Acceder </button>
+                    <br><br>
+                    <button type="button2"> <a href="index.html">Regresar</button>
+                </div>
+                <div id="contenido"></div>
+            </div>
+
+        </main>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-auth.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyDOEyKjTqawZ2nxnvXGNN1KLhQYJP9eOh8",
+                authDomain: "bdbonsai-55379.firebaseapp.com",
+                databaseURL: "https://bdbonsai-55379-default-rtdb.firebaseio.com",
+                projectId: "bdbonsai-55379",
+                storageBucket: "bdbonsai-55379.appspot.com",
+                messagingSenderId: "1055742813594",
+                appId: "1:1055742813594:web:4e23c55027cf7a0b7f0623"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+        </script>
+        <script src="/Sistema_Bonsai/js/conexion.js"></script>
+    </aside>
+
+</body>
+
+</html>
